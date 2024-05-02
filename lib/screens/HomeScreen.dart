@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 return PostView(
                   id: index,
                   image:
-                      "https://picsum.photos/${1200 + index}/${1200 + index}",
+                      "https://picsum.photos/${2000 + index}/${2000 + index}",
                   userImage:
                       "https://picsum.photos/${400 + index}/${400 + index}",
                   username: "Hakam $index",
