@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:instapound/screens/CameraScreen.dart';
+import 'package:instapound/screens/DMsScreen.dart';
 import 'package:instapound/screens/PostViewerScreen.dart';
 import 'package:instapound/utils/NavigationTools.dart';
 import 'package:instapound/views/PostView.dart';
 import 'package:instapound/views/StoriesView.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key, required this.title});
-
-  final String title;
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -67,11 +67,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: _incrementCounter,
-      //   tooltip: 'Increment',
-      //   child: const Icon(Icons.add),
-      // ),
     );
   }
 
@@ -89,11 +84,15 @@ class _HomeScreenState extends State<HomeScreen> {
       floating: true,
       actions: [
         IconButton(
-          onPressed: () {},
+          onPressed: () {
+            goToScreen(context, const CameraScreen());
+          },
           icon: const Icon(CupertinoIcons.camera),
         ),
         IconButton(
-          onPressed: () {},
+          onPressed: () {
+            goToScreen(context, const DMsScreens());
+          },
           icon: const Icon(CupertinoIcons.paperplane),
         ),
       ],

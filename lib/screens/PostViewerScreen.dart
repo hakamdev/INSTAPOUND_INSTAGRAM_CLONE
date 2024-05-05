@@ -147,7 +147,7 @@ class _PostViewerScreenState extends State<PostViewerScreen> {
   Widget ActionButtonsRow(BuildContext context) {
     return Container(
       height: 56,
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         color: Colors.black,
         // boxShadow: [
         //   BoxShadow(
@@ -192,7 +192,7 @@ class _PostViewerScreenState extends State<PostViewerScreen> {
             flex: 1,
             child: IconButton(
               onPressed: () {},
-              icon: Icon(
+              icon: const Icon(
                 CupertinoIcons.paperplane,
                 color: Colors.white,
               ),
