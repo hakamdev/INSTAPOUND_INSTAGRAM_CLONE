@@ -2,15 +2,9 @@
 
 An instagram UI clone project in Flutter, based on a UI Design from the internet, made with ❤️by HakamX
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+<img width="100%" alt="Screenshot 2024-05-05 at 11 06 15 PM" src="https://github.com/hakamdev/INSTAPOUND_INSTAGRAM_CLONE/assets/29928577/7b708bdd-de27-4115-bdd8-284d8b0d02a8">
 
-A few resources to get you started if this is your first Flutter project:
+<img width="49%" alt="Screenshot 2024-05-05 at 11 06 38 PM" src="https://github.com/hakamdev/INSTAPOUND_INSTAGRAM_CLONE/assets/29928577/1df8bd44-d86c-4ae5-9f26-a49924894403"> <img width="49%" alt="Screenshot 2024-05-05 at 11 07 00 PM" src="https://github.com/hakamdev/INSTAPOUND_INSTAGRAM_CLONE/assets/29928577/125a9101-46da-454a-b566-1add152ab58b">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
